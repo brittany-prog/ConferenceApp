@@ -1,0 +1,133 @@
+<?php
+
+use App\Http\Controllers\AdminAnnouncementController;
+use App\Http\Controllers\AdminDashboardController;
+use App\Http\Controllers\AdminSessionController;
+use App\Http\Controllers\AdminSettingController;
+use App\Http\Controllers\AdminSponsorController;
+use App\Http\Controllers\AdminSpeakerController;
+use App\Http\Controllers\AdminUserController;
+use App\Http\Controllers\AdminVenueController;
+use App\Http\Controllers\AnnouncementController;
+use App\Http\Controllers\AttendeeController;
+use App\Http\Controllers\AttendeeProfileController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CommunityController;
+use App\Http\Controllers\DayController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MessageController;
+use App\Http\Controllers\MyScheduleController;
+use App\Http\Controllers\NotificationController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ShareCardController;
+use App\Http\Controllers\SessionController;
+use App\Http\Controllers\SessionFeedbackController;
+use App\Http\Controllers\SponsorController;
+use App\Http\Controllers\SpeakerController;
+use App\Http\Controllers\VenueController;
+use App\Http\Controllers\AdminCommunityController;
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', [HomeController::class, 'landing'])->name('landing');
+Route::get('/agenda-preview', [SessionController::class, 'publicIndex'])->name('sessions.preview');
+Route::get('/agenda-preview/{session}', [SessionController::class, 'publicShow'])->name('sessions.preview.show');
+
+Route::middleware('guest')->group(function () {
+    Route::get('/login', [AuthController::class, 'showLogin'])->name('login');
+    Route::post('/login', [AuthController::class, 'login'])->name('login.attempt');
+    Route::get('/login/verify', [AuthController::class, 'showVerifyCode'])->name('login.verify');
+    Route::post('/login/verify', [AuthController::class, 'verifyCode'])->name('login.verify.submit');
+    Route::get('/forgot-password', [AuthController::class, 'showForgotPassword'])->name('password.request');
+    Route::post('/forgot-password', [AuthController::class, 'sendResetLink'])->name('password.email');
+    Route::get('/reset-password/{token}', [AuthController::class, 'showResetPassword'])->name('password.reset');
+    Route::post('/reset-password', [AuthController::class, 'resetPassword'])->name('password.update');
+    Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
+    Route::post('/register', [AuthController::class, 'register'])->name('register.store');
+});
+
+Route::middleware(['auth', 'active-user'])->group(function () {
+    Route::get('/app', [HomeController::class, 'index'])->name('app.home');
+    Route::get('/days', [DayController::class, 'index'])->name('days.index');
+    Route::get('/sessions', [SessionController::class, 'index'])->name('sessions.index');
+    Route::get('/sessions/{session}', [SessionController::class, 'show'])->name('sessions.show');
+    Route::post('/sessions/{session}/feedback', [SessionFeedbackController::class, 'store'])->name('sessions.feedback.store');
+    Route::get('/sponsors', [SponsorController::class, 'index'])->name('sponsors.index');
+    Route::get('/sponsors/{sponsor}', [SponsorController::class, 'show'])->name('sponsors.show');
+    Route::post('/sponsors/{sponsor}/interest', [SponsorController::class, 'toggleInterest'])->name('sponsors.interest.toggle');
+    Route::get('/venue', VenueController::class)->name('venue.show');
+    Route::get('/community', [CommunityController::class, 'index'])->name('community.index');
+    Route::get('/community/topics/{topic}', [CommunityController::class, 'show'])->name('community.show');
+    Route::post('/community/topics/{topic}/posts', [CommunityController::class, 'store'])->name('community.posts.store');
+    Route::get('/speakers', [SpeakerController::class, 'index'])->name('speakers.index');
+    Route::get('/speakers/{speaker}', [SpeakerController::class, 'show'])->name('speakers.show');
+    Route::get('/attendees', [AttendeeController::class, 'index'])->name('attendees.index');
+    Route::get('/attendees/{user}', [AttendeeProfileController::class, 'show'])->name('attendees.show');
+    Route::get('/announcements', [AnnouncementController::class, 'index'])->name('announcements.index');
+    Route::get('/notifications', [NotificationController::class, 'index'])->name('notifications.index');
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::put('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::get('/share/attending', [ShareCardController::class, 'attendee'])->name('share.attendee');
+    Route::get('/share/attending/card', [ShareCardController::class, 'attendeeImage'])->name('share.attendee.image');
+    Route::get('/share/speaking', [ShareCardController::class, 'speakerIndex'])->name('share.speaker.index');
+    Route::get('/share/sessions/{session}/speaker', [ShareCardController::class, 'speaker'])->name('share.speaker');
+    Route::get('/share/sessions/{session}/speaker-card', [ShareCardController::class, 'speakerImage'])->name('share.speaker.image');
+    Route::get('/messages', [MessageController::class, 'index'])->name('messages.index');
+    Route::get('/messages/{user}', [MessageController::class, 'show'])->name('messages.show');
+    Route::post('/messages/{user}', [MessageController::class, 'store'])->name('messages.store');
+    Route::get('/my-schedule', MyScheduleController::class)->name('my-schedule.index');
+    Route::post('/sessions/{session}/toggle-save', [SessionController::class, 'toggleSave'])->name('sessions.toggle-save');
+    Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+});
+
+Route::middleware(['auth', 'active-user', 'admin'])->group(function () {
+    Route::get('/admin', AdminDashboardController::class)->name('admin.dashboard');
+    Route::get('/admin/users', [AdminUserController::class, 'index'])->name('admin.users.index');
+    Route::get('/admin/users/export', [AdminUserController::class, 'export'])->name('admin.users.export');
+    Route::get('/admin/users/import-template', [AdminUserController::class, 'exportImportTemplate'])->name('admin.users.import-template');
+    Route::post('/admin/users/import', [AdminUserController::class, 'import'])->name('admin.users.import');
+    Route::post('/admin/users', [AdminUserController::class, 'store'])->name('admin.users.store');
+    Route::put('/admin/users/{user}', [AdminUserController::class, 'update'])->name('admin.users.update');
+    Route::delete('/admin/users/{user}', [AdminUserController::class, 'destroy'])->name('admin.users.destroy');
+    Route::get('/admin/settings', [AdminSettingController::class, 'edit'])->name('admin.settings.edit');
+    Route::put('/admin/settings', [AdminSettingController::class, 'update'])->name('admin.settings.update');
+    Route::get('/admin/venue', [AdminVenueController::class, 'edit'])->name('admin.venue.edit');
+    Route::put('/admin/venue', [AdminVenueController::class, 'update'])->name('admin.venue.update');
+    Route::get('/admin/community', [AdminCommunityController::class, 'index'])->name('admin.community.index');
+    Route::get('/admin/community/create', [AdminCommunityController::class, 'create'])->name('admin.community.create');
+    Route::post('/admin/community', [AdminCommunityController::class, 'store'])->name('admin.community.store');
+    Route::get('/admin/community/{topic}/edit', [AdminCommunityController::class, 'edit'])->name('admin.community.edit');
+    Route::put('/admin/community/{topic}', [AdminCommunityController::class, 'update'])->name('admin.community.update');
+    Route::delete('/admin/community/{topic}', [AdminCommunityController::class, 'destroy'])->name('admin.community.destroy');
+    Route::patch('/admin/community/posts/{post}', [AdminCommunityController::class, 'moderatePost'])->name('admin.community.posts.update');
+    Route::get('/admin/sponsors', [AdminSponsorController::class, 'index'])->name('admin.sponsors.index');
+    Route::get('/admin/sponsors/export/interests', [AdminSponsorController::class, 'exportInterest'])->name('admin.sponsors.export-interest');
+    Route::get('/admin/sponsors/create', [AdminSponsorController::class, 'create'])->name('admin.sponsors.create');
+    Route::post('/admin/sponsors', [AdminSponsorController::class, 'store'])->name('admin.sponsors.store');
+    Route::get('/admin/sponsors/{sponsor}/export-interests', [AdminSponsorController::class, 'exportSponsorInterest'])->name('admin.sponsors.export-sponsor-interest');
+    Route::get('/admin/sponsors/{sponsor}/edit', [AdminSponsorController::class, 'edit'])->name('admin.sponsors.edit');
+    Route::put('/admin/sponsors/{sponsor}', [AdminSponsorController::class, 'update'])->name('admin.sponsors.update');
+    Route::delete('/admin/sponsors/{sponsor}', [AdminSponsorController::class, 'destroy'])->name('admin.sponsors.destroy');
+
+    Route::get('/admin/sessions', [AdminSessionController::class, 'index'])->name('admin.sessions.index');
+    Route::get('/admin/sessions/export/feedback', [AdminSessionController::class, 'exportFeedback'])->name('admin.sessions.export-feedback');
+    Route::get('/admin/sessions/create', [AdminSessionController::class, 'create'])->name('admin.sessions.create');
+    Route::post('/admin/sessions', [AdminSessionController::class, 'store'])->name('admin.sessions.store');
+    Route::get('/admin/sessions/{session}/export-feedback', [AdminSessionController::class, 'exportSessionFeedback'])->name('admin.sessions.export-session-feedback');
+    Route::get('/admin/sessions/{session}/edit', [AdminSessionController::class, 'edit'])->name('admin.sessions.edit');
+    Route::put('/admin/sessions/{session}', [AdminSessionController::class, 'update'])->name('admin.sessions.update');
+    Route::delete('/admin/sessions/{session}', [AdminSessionController::class, 'destroy'])->name('admin.sessions.destroy');
+
+    Route::get('/admin/speakers', [AdminSpeakerController::class, 'index'])->name('admin.speakers.index');
+    Route::get('/admin/speakers/create', [AdminSpeakerController::class, 'create'])->name('admin.speakers.create');
+    Route::post('/admin/speakers', [AdminSpeakerController::class, 'store'])->name('admin.speakers.store');
+    Route::get('/admin/speakers/{speaker}/edit', [AdminSpeakerController::class, 'edit'])->name('admin.speakers.edit');
+    Route::put('/admin/speakers/{speaker}', [AdminSpeakerController::class, 'update'])->name('admin.speakers.update');
+    Route::delete('/admin/speakers/{speaker}', [AdminSpeakerController::class, 'destroy'])->name('admin.speakers.destroy');
+
+    Route::get('/admin/announcements', [AdminAnnouncementController::class, 'index'])->name('admin.announcements.index');
+    Route::get('/admin/announcements/create', [AdminAnnouncementController::class, 'create'])->name('admin.announcements.create');
+    Route::post('/admin/announcements', [AdminAnnouncementController::class, 'store'])->name('admin.announcements.store');
+    Route::get('/admin/announcements/{announcement}/edit', [AdminAnnouncementController::class, 'edit'])->name('admin.announcements.edit');
+    Route::put('/admin/announcements/{announcement}', [AdminAnnouncementController::class, 'update'])->name('admin.announcements.update');
+    Route::delete('/admin/announcements/{announcement}', [AdminAnnouncementController::class, 'destroy'])->name('admin.announcements.destroy');
+});

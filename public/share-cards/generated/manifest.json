@@ -1,0 +1,206 @@
+[
+  {
+    "speaker": "Reginald Matthews",
+    "session": "Mastering Personalized AI with Google NotebookLM",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/reginald-matthews--mastering-personalized-ai-with-google-notebooklm--day-1-9-40-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/reginald-matthews--mastering-personalized-ai-with-google-notebooklm--day-1-9-40-am.png"
+  },
+  {
+    "speaker": "Latane Brackett",
+    "session": "Out of the Building-Now: Using AI to Accelerate Real-World Customer Discovery",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/latane-brackett--out-of-the-building-now-using-ai-to-accelerate-real-world-customer-discovery--day-1-9-40-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/latane-brackett--out-of-the-building-now-using-ai-to-accelerate-real-world-customer-discovery--day-1-9-40-am.png"
+  },
+  {
+    "speaker": "Heather White",
+    "session": "Socratic by Design, Safe by Default: Khan Academy + Khanmigo in Action",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/heather-white--socratic-by-design-safe-by-default-khan-academy-khanmigo-in-action--day-1-9-40-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/heather-white--socratic-by-design-safe-by-default-khan-academy-khanmigo-in-action--day-1-9-40-am.png"
+  },
+  {
+    "speaker": "Yolanda Edmonds",
+    "session": "From Learning to Earning: The A.I.M. Framework in Action",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/yolanda-edmonds--from-learning-to-earning-the-a-i-m-framework-in-action--day-1-11-15-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/yolanda-edmonds--from-learning-to-earning-the-a-i-m-framework-in-action--day-1-11-15-am.png"
+  },
+  {
+    "speaker": "William Hill",
+    "session": "From Idea to Reality: Building Smarter Workflows with Claude Code and Claude Cowork",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/william-hill--from-idea-to-reality-building-smarter-workflows-with-claude-code-and-claude-cowork--day-1-11-15-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/william-hill--from-idea-to-reality-building-smarter-workflows-with-claude-code-and-claude-cowork--day-1-11-15-am.png"
+  },
+  {
+    "speaker": "Shauna Waters",
+    "session": "Teaching With AI, Not Around It: Purpose-Driven Classroom AI",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/shauna-waters--teaching-with-ai-not-around-it-purpose-driven-classroom-ai--day-1-11-15-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/shauna-waters--teaching-with-ai-not-around-it-purpose-driven-classroom-ai--day-1-11-15-am.png"
+  },
+  {
+    "speaker": "Dr. Chris Chism",
+    "session": "Lunch Keynote - Dr. Chris Chism",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/dr-chris-chism--lunch-keynote-dr-chris-chism--day-1-12-30-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/dr-chris-chism--lunch-keynote-dr-chris-chism--day-1-12-30-pm.png"
+  },
+  {
+    "speaker": "Candace McClendon",
+    "session": "AI Is Here. Now What Do We Teach? Building AI Literacy With Secondary Students in the South",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/candace-mcclendon--ai-is-here-now-what-do-we-teach-building-ai-literacy-with-secondary-students-in-the-south--day-1-1-30-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/candace-mcclendon--ai-is-here-now-what-do-we-teach-building-ai-literacy-with-secondary-students-in-the-south--day-1-1-30-pm.png"
+  },
+  {
+    "speaker": "Brandon Newton",
+    "session": "Building with LLMs",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/brandon-newton--building-with-llms--day-1-1-30-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/brandon-newton--building-with-llms--day-1-1-30-pm.png"
+  },
+  {
+    "speaker": "Carlos Ewing",
+    "session": "From Uh-Uh to AI: Incorporating AI in the Classroom",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/carlos-ewing--from-uh-uh-to-ai-incorporating-ai-in-the-classroom--day-1-3-05-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/carlos-ewing--from-uh-uh-to-ai-incorporating-ai-in-the-classroom--day-1-3-05-pm.png"
+  },
+  {
+    "speaker": "Luciano Oviedo",
+    "session": "Emerging/AI Technology Strategy Gaming for Social Impact",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/luciano-oviedo--emerging-ai-technology-strategy-gaming-for-social-impact--day-1-3-05-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/luciano-oviedo--emerging-ai-technology-strategy-gaming-for-social-impact--day-1-3-05-pm.png"
+  },
+  {
+    "speaker": "Shauna Waters",
+    "session": "Teaching With AI, Not Around It: Purpose-Driven Classroom AI",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/shauna-waters--teaching-with-ai-not-around-it-purpose-driven-classroom-ai--day-1-3-05-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/shauna-waters--teaching-with-ai-not-around-it-purpose-driven-classroom-ai--day-1-3-05-pm.png"
+  },
+  {
+    "speaker": "James Robinson",
+    "session": "Plenary Opening Panel: AI Policy & Data Governance Panel: Statewide Findings",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/james-robinson--plenary-opening-panel-ai-policy-data-governance-panel-statewide-findings--day-2-9-30-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/james-robinson--plenary-opening-panel-ai-policy-data-governance-panel-statewide-findings--day-2-9-30-am.png"
+  },
+  {
+    "speaker": "Shelley Thompson",
+    "session": "Building a Statewide AI Innovation Hub for Public Impact",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/shelley-thompson--building-a-statewide-ai-innovation-hub-for-public-impact--day-2-10-10-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/shelley-thompson--building-a-statewide-ai-innovation-hub-for-public-impact--day-2-10-10-am.png"
+  },
+  {
+    "speaker": "Dr. Lorilyn Thompson",
+    "session": "Building an Ethical AI Learning Ecosystem: The FRAMER Model",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/dr-lorilyn-thompson--building-an-ethical-ai-learning-ecosystem-the-framer-model--day-2-10-10-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/dr-lorilyn-thompson--building-an-ethical-ai-learning-ecosystem-the-framer-model--day-2-10-10-am.png"
+  },
+  {
+    "speaker": "Delaney Foster",
+    "session": "Beyond the Tool: Building Institutional AI Capacity",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/delaney-foster--beyond-the-tool-building-institutional-ai-capacity--day-2-10-10-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/delaney-foster--beyond-the-tool-building-institutional-ai-capacity--day-2-10-10-am.png"
+  },
+  {
+    "speaker": "MagnoliaJS Placeholder Speaker",
+    "session": "MagnoliaJS - Building Tech and Development Ecosystem",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/magnoliajs-placeholder-speaker--magnoliajs-building-tech-and-development-ecosystem--day-2-10-10-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/magnoliajs-placeholder-speaker--magnoliajs-building-tech-and-development-ecosystem--day-2-10-10-am.png"
+  },
+  {
+    "speaker": "Tara Poolson",
+    "session": "The Landscape of AI in Education and Beyond",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/tara-poolson--the-landscape-of-ai-in-education-and-beyond--day-2-11-00-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/tara-poolson--the-landscape-of-ai-in-education-and-beyond--day-2-11-00-am.png"
+  },
+  {
+    "speaker": "Tasha Penwell",
+    "session": "Closing the Rural Digital Divide with Google Colab",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/tasha-penwell--closing-the-rural-digital-divide-with-google-colab--day-2-11-00-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/tasha-penwell--closing-the-rural-digital-divide-with-google-colab--day-2-11-00-am.png"
+  },
+  {
+    "speaker": "Amber Sheppard",
+    "session": "Who Really Owns Your AI? How to Protect Your Brand and Your Ideas",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/amber-sheppard--who-really-owns-your-ai-how-to-protect-your-brand-and-your-ideas--day-2-11-00-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/amber-sheppard--who-really-owns-your-ai-how-to-protect-your-brand-and-your-ideas--day-2-11-00-am.png"
+  },
+  {
+    "speaker": "Shivochie Dinkins",
+    "session": "Grounded Futures, Shared Innovation: Using Suno AI to Transform Teaching and Learning",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/shivochie-dinkins--grounded-futures-shared-innovation-using-suno-ai-to-transform-teaching-and-learning--day-2-11-00-am.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/shivochie-dinkins--grounded-futures-shared-innovation-using-suno-ai-to-transform-teaching-and-learning--day-2-11-00-am.png"
+  },
+  {
+    "speaker": "Dr. Loretta Moore",
+    "session": "Lunch Keynote - Dr. Loretta Moore",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/dr-loretta-moore--lunch-keynote-dr-loretta-moore--day-2-12-00-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/dr-loretta-moore--lunch-keynote-dr-loretta-moore--day-2-12-00-pm.png"
+  },
+  {
+    "speaker": "David Collins",
+    "session": "Building Regional AI Innovation Ecosystems Alongside Startups and Founders",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/david-collins--building-regional-ai-innovation-ecosystems-alongside-startups-and-founders--day-2-1-00-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/david-collins--building-regional-ai-innovation-ecosystems-alongside-startups-and-founders--day-2-1-00-pm.png"
+  },
+  {
+    "speaker": "Tianne Brown",
+    "session": "Governance Before Scale: Three Real-World AI Use Cases Designed for Responsible Deployment in Mississippi",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/tianne-brown--governance-before-scale-three-real-world-ai-use-cases-designed-for-responsible-deployment-in-mississippi--day-2-1-00-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/tianne-brown--governance-before-scale-three-real-world-ai-use-cases-designed-for-responsible-deployment-in-mississippi--day-2-1-00-pm.png"
+  },
+  {
+    "speaker": "Belinda Patton",
+    "session": "From Rural Classrooms to Regional Talent Pipelines: Implementing AI and Data Literacy with Quanthub in the South",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/belinda-patton--from-rural-classrooms-to-regional-talent-pipelines-implementing-ai-and-data-literacy-with-quanthub-in-the-south--day-2-1-00-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/belinda-patton--from-rural-classrooms-to-regional-talent-pipelines-implementing-ai-and-data-literacy-with-quanthub-in-the-south--day-2-1-00-pm.png"
+  },
+  {
+    "speaker": "Lara Taylor",
+    "session": "Building AI Access County by County: A Mississippi Case Study",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/lara-taylor--building-ai-access-county-by-county-a-mississippi-case-study--day-2-1-00-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/lara-taylor--building-ai-access-county-by-county-a-mississippi-case-study--day-2-1-00-pm.png"
+  },
+  {
+    "speaker": "Delaney Foster",
+    "session": "Hidden Curriculum of Innovation",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/delaney-foster--hidden-curriculum-of-innovation--day-2-1-55-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/delaney-foster--hidden-curriculum-of-innovation--day-2-1-55-pm.png"
+  },
+  {
+    "speaker": "Trevor Acy",
+    "session": "AI Doesn't Fix Weak Strategy: Why Product Thinking Is the South's Missing AI Skill",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/trevor-acy--ai-doesn-t-fix-weak-strategy-why-product-thinking-is-the-south-s-missing-ai-skill--day-2-1-55-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/trevor-acy--ai-doesn-t-fix-weak-strategy-why-product-thinking-is-the-south-s-missing-ai-skill--day-2-1-55-pm.png"
+  },
+  {
+    "speaker": "Sonia Daniels, PhD",
+    "session": "What AI Makes Possible for Social Equity in the South",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/sonia-daniels-phd--what-ai-makes-possible-for-social-equity-in-the-south--day-2-1-55-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/sonia-daniels-phd--what-ai-makes-possible-for-social-equity-in-the-south--day-2-1-55-pm.png"
+  },
+  {
+    "speaker": "Raymonda Placeholder",
+    "session": "What Does It Take to Build a Regional Tech Hub?",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/raymonda-placeholder--what-does-it-take-to-build-a-regional-tech-hub--day-2-1-55-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/raymonda-placeholder--what-does-it-take-to-build-a-regional-tech-hub--day-2-1-55-pm.png"
+  },
+  {
+    "speaker": "William \"Edd\" Blake and Tiffany Henderson",
+    "session": "Code the Beat: Music, Messaging, and Mississippi's Next Coding DJ Competition",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/william-edd-blake-and-tiffany-henderson--code-the-beat-music-messaging-and-mississippi-s-next-coding-dj-competition--day-2-2-50-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/william-edd-blake-and-tiffany-henderson--code-the-beat-music-messaging-and-mississippi-s-next-coding-dj-competition--day-2-2-50-pm.png"
+  },
+  {
+    "speaker": "Alisa Mosley",
+    "session": "JSU Social Impact Challenge",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/alisa-mosley--jsu-social-impact-challenge--day-2-2-50-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/alisa-mosley--jsu-social-impact-challenge--day-2-2-50-pm.png"
+  },
+  {
+    "speaker": "Craig A. Meyer",
+    "session": "AI & Disfluency",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/craig-a-meyer--ai-disfluency--day-2-2-50-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/craig-a-meyer--ai-disfluency--day-2-2-50-pm.png"
+  },
+  {
+    "speaker": "Krystal Chatman",
+    "session": "Final Spark Chat: Where Do We Go Next? Building Mississippi's AI Ecosystem",
+    "svg": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/svg/krystal-chatman--final-spark-chat-where-do-we-go-next-building-mississippi-s-ai-ecosystem--day-2-3-45-pm.svg",
+    "png": "/Users/Birittany/Documents/New project 2/sosparkcon-main/public/share-cards/generated/png/krystal-chatman--final-spark-chat-where-do-we-go-next-building-mississippi-s-ai-ecosystem--day-2-3-45-pm.png"
+  }
+]
