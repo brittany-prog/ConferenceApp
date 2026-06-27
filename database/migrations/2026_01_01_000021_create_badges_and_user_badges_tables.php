@@ -39,7 +39,7 @@ return new class extends Migration
             ['name' => 'Agenda Builder', 'slug' => 'agenda-builder', 'description' => 'Saved multiple sessions to build your event plan.', 'icon' => 'calendar', 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
             ['name' => 'Feedback Friend', 'slug' => 'feedback-friend', 'description' => 'Shared session feedback with the organizers.', 'icon' => 'star', 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
             ['name' => 'Sponsor Scout', 'slug' => 'sponsor-scout', 'description' => 'Explored sponsor profiles and marked interest.', 'icon' => 'map', 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
-            ['name' => 'Southern Spark Champion', 'slug' => 'southern-spark-champion', 'description' => 'Reached a standout level of participation across the app.', 'icon' => 'trophy', 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
+            ['name' => 'Event Champion', 'slug' => 'southern-spark-champion', 'description' => 'Reached a standout level of participation across the app.', 'icon' => 'trophy', 'is_active' => true, 'created_at' => $now, 'updated_at' => $now],
         ]);
     }
 

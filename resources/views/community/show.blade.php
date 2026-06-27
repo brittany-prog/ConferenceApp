@@ -69,7 +69,7 @@
                             </div>
 
                             <div>
-                                <label for="why_here">What brought you to Southern Spark?</label>
+                                <label for="why_here">What brought you to this event?</label>
                                 <textarea id="why_here" name="why_here" rows="3" placeholder="I am here to learn how others are using AI in practical, people-centered ways.">{{ $introFields['why_here'] }}</textarea>
                             </div>
                             <div>

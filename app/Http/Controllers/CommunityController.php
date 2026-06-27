@@ -170,7 +170,7 @@ class CommunityController extends Controller
                 25,
                 'community_topic',
                 $topic->id,
-                'Introduced yourself to the Southern Spark community.'
+                'Introduced yourself to the event community.'
             );
 
             return redirect('/community/topics/'.$topic->slug.'#post-'.$post->id)

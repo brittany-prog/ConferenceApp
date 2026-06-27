@@ -1,6 +1,6 @@
 @php($settings = \App\Support\AppSettings::all())
 @php($emailLogo = !empty($settings['brand_logo_path'] ?? null) ? asset('storage/'.$settings['brand_logo_path']) : ($settings['brand_logo_url'] ?? null))
-@php($brandName = $settings['brand_name'] ?? 'Southern Spark')
+@php($brandName = $settings['brand_name'] ?? 'Conference App')
 @php($brandTagline = $settings['brand_tagline'] ?? 'Conference app access')
 
 <div style="margin:0; padding:24px 0; background:#f3f5fb;">

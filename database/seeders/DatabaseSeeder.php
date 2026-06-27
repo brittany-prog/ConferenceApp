@@ -11,15 +11,10 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
-        $this->call([
-            SouthernSparkSeeder::class,
-            SyncSpeakerUsersSeeder::class,
-        ]);
-
         User::firstOrCreate(
-            ['email' => 'admin@southernspark.test'],
+            ['email' => 'admin@conferenceapp.test'],
             [
-                'name' => 'Southern Spark Admin',
+                'name' => 'Conference App Admin',
                 'password' => Hash::make('ChangeMe123!'),
                 'is_admin' => true,
                 'can_login' => true,
@@ -27,7 +22,7 @@ class DatabaseSeeder extends Seeder
         );
 
         $defaults = [
-            'brand_name' => env('BRAND_NAME', 'Southern Spark'),
+            'brand_name' => env('BRAND_NAME', 'Conference App'),
             'brand_tagline' => env('BRAND_TAGLINE', 'A polished conference app for your event.'),
             'brand_primary_color' => env('BRAND_PRIMARY_COLOR', '#0f7c73'),
             'brand_accent_color' => env('BRAND_ACCENT_COLOR', '#f59e0b'),

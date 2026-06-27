@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Conference App">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f7c73"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <path d="M34 42h60v12H34zM34 58h60v36H34z" fill="#ffffff" opacity="0.94"/>
+  <path d="M44 30h10v20H44zM74 30h10v20H74z" fill="#ffffff"/>
+  <path d="M46 74h14v14H46zM68 74h14v14H68z" fill="#0f7c73"/>
+</svg>
