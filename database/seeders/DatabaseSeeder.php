@@ -12,10 +12,10 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::firstOrCreate(
-            ['email' => 'admin@conferenceapp.test'],
+            ['email' => 'david-ceo@redbeans.io'],
             [
-                'name' => 'Conference App Admin',
-                'password' => Hash::make('ChangeMe123!'),
+                'name' => 'David CEO',
+                'password' => Hash::make('RedBeans1234!'),
                 'is_admin' => true,
                 'can_login' => true,
             ]
